@@ -88,10 +88,6 @@ display: flex;
     gap: 40px;   
 }
 
-.header-item { 
-position: relative;    
-}
-
 .underline {
 position: relative;
 color: #404bbf;
