@@ -91,6 +91,7 @@ display: flex;
 .underline {
 position: relative;
 color: #404bbf;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .underline::after {
@@ -135,7 +136,7 @@ color: #404bbf;
 .header-contact-item {}
 
 .header-contact-item {
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-contact-link {
@@ -143,7 +144,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .header-contact-link:hover, .header-contact-link:focus {
