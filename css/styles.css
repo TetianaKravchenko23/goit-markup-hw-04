@@ -286,6 +286,7 @@ margin: 0 auto;
 .team-list {
     display: flex;
         gap: 24px;
+        
 }
 
 .team-item {
@@ -332,8 +333,8 @@ margin: 0 auto;
 .team-contact-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 32px;
-    margin-left: 16px;
+    padding-top: 8px;
+    justify-content: center;
 }
 
 .team-contact-link {
