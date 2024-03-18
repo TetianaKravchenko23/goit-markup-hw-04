@@ -164,13 +164,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* ===============HERO=============== */
 
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 188px;
     padding-bottom: 188px;   
     max-width: 1440px;
     background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 }
 
 .hero-section {
@@ -270,7 +270,11 @@ margin: 0 auto;
 .team {
     background: #f4f4fd;
 }
-.section-team { 
+.section-team {
+padding-top: 32px;
+    padding-bottom: 32px;
+        
+} 
     
 
 .team-title {
@@ -291,10 +295,11 @@ margin: 0 auto;
 
 .team-item {
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+    
 }
 
 .team-image {}
@@ -325,10 +330,9 @@ margin: 0 auto;
         letter-spacing: 0.02em;
         text-align: center;
         padding-top: 32px;
-        padding-bottom: 32px;
-          
+        padding-bottom: 32px;        
 }
-}
+
 
 .team-contact-list {
     display: flex;
